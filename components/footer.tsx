@@ -21,19 +21,19 @@ export default function Footer() {
               partner for all your transportation needs.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="hover:text-[#99CCFF]" scroll={true}>
+              <Link href="https://www.linkedin.com/company/ramtruckinggroup/" className="hover:text-[#99CCFF]" scroll={true}>
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="hover:text-[#99CCFF]" scroll={true}>
+              <Link href="https://www.linkedin.com/company/ramtruckinggroup/" className="hover:text-[#99CCFF]" scroll={true}>
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="hover:text-[#99CCFF]" scroll={true}>
+              <Link href="https://www.linkedin.com/company/ramtruckinggroup/" className="hover:text-[#99CCFF]" scroll={true}>
                 <Instagram size={20} />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="hover:text-[#99CCFF]" scroll={true}>
+              <Link href="https://www.linkedin.com/company/ramtruckinggroup/" className="hover:text-[#99CCFF]" scroll={true}>
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </Link>
