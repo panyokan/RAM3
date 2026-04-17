@@ -41,10 +41,11 @@ export default function Contact() {
     setFormStatus("submitting");
   
     try {
-      const response = await fetch("https://algonod.onrender.com/contact-form", {
+      const response = await fetch("https://submit-form.com/AKcaGdREB", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify(formData),
       });
