@@ -26,7 +26,8 @@ export default function Contact() {
     company: "",
     subject: "",
     message: "",
-    address: "RAMTRUCK"
+    address: "RAMTRUCK",
+    _gotcha: "",
   });
 
   const handleChange = (
@@ -122,6 +123,7 @@ export default function Contact() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
+                  <input type="text" name="_gotcha" value={formData._gotcha} onChange={handleChange} style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label
